@@ -1,0 +1,28 @@
+.background    { background: url('http://i.imgur.com/yi9DRtN.gif'););
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url('http://s8.postimg.org/590jqlei9/Lava.gif'); }
+.wall          { background: url('http://i1087.photobucket.com/albums/j471/dlluminecraft/grassoriginal.png');   }
+
+.actor  { position: absolute;  }
+.coin   { background: url('http://i.imgur.com/u6v51Yc.gif'); }
+.player { background: url('http://i6.ifrm.com/14541/153/pip/Kirby.gif'); }
+.enemy { background: url('http://vignette2.wikia.nocookie.net/kirby/images/c/c2/Waddle-dee2.gif/revision/latest?cb=20080915183004&path-prefix=de'); }
+.bouncerEnemy {background: url('http://www.smwcentral.net/images/ranks/kdl3/brontoburt.gif'); }
+.snitch { background: url('http://img01.deviantart.net/64c7/i/2006/143/6/4/pixel_snitch_by_sirius_the_great.png'); }
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url('http://cdn.brawlinthefamily.keenspot.com/forum/customavatars/avatar26333_3.gif');
+}
+.won .player {
+  background: url('http://orig09.deviantart.net/761e/f/2014/237/b/e/kirby_dance_by_blazikendude-d7wo8n1.gif');
+}
